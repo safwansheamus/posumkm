@@ -19,9 +19,9 @@
                     <div class="col-lg-7">
                         
                         <div class="customer-zone padding-20-row-col mb-30">
-                            <p class="cart-page-title">Mengalami Error? <a class="checkout-click1" href="#">Baca disini</a></p>
                             <div class="checkout-login-info">
                                 <p>Jika telah melakukan Checkout tetapi tidak terkirim ke Whatsapp, pastikan "Alamat Lengkap" ditulis tanpa "Enter" / "Garis Baru".</p>
+                                <p>Karena "Pos UMKM" masih dalam tahap pengembangan, Hanya gunakan Pos Indonesia untuk Proses pengirimannya ya kak</p>
                                 <p>Punya kendala lainnya? Hubungi Admin <?= $this->Settings_model->general()["app_name"]; ?> sekarang juga, dengan menekan tombol dibawah ini!</p>
                                 <div class="btn-style-1" >
                                     <a class="font-size-14 btn-1-padding-2 text-center"  href="https://wa.me/<?= $this->Settings_model->general()["whatsappv2"]; ?>">Hubungi Admin </a>

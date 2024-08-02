@@ -26,7 +26,7 @@
                 <div class="card-body">
                     <form action="<?= base_url(); ?>administrator/setting/ongkir" method="post">
                         <div class="form-group">
-                            <label for="ongkir">Default nominal ongkis kirim akan digunakan ketika ongkir dimatikan.</label>
+                            <label for="ongkir">Default nominal ongkir kirim akan digunakan ketika ongkir dimatikan.</label>
                             <input type="number" value="<?= $setting['default_ongkir']; ?>" name="ongkir" class="form-control" id="ongkir">
                             <small class="text-muted">Isikan tanpa tanda pemisah. Contoh: 25000 (Gunakan angka 0 untuk ongkir gratis)</small>
                         </div>

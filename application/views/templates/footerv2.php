@@ -50,6 +50,7 @@ $rekening = $this->db->get('rekening');
                     </div>
                 </div>
             </div>
+            
             <div class="col-width-31 custom-common-column">
                 <div class="footer-widget mb-40">
                     <h3 class="footer-title">Pembayaran Bisa Pakai Pospay</h3>

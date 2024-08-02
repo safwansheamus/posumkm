@@ -243,7 +243,7 @@
                     <div class="col-lg-8">
                         <div class="banner-wrap mb-30">
                             <div class="banner-img banner-img-zoom">
-                                <a href="<?= base_url(); ?>products"><img src="<?= base_url(); ?>assets/home/assets/images/banner/banner-bawah1.jpg" alt=""></a>
+                                <a href="<?= base_url(); ?>products"><img src="<?= base_url(); ?>assets/home/assets/images/banner/testers.png" alt=""></a>
                             </div>
                             <div class="banner-content-2">
                             <?php
@@ -251,8 +251,8 @@
                             $this->db->order_by("price", "asc");
                             $pss= $this->db->get('products');
                             ?>
-                                <h2>Dapatkan Produk Premium!</h2>
-                                <h3 class="d-none d-sm-block">Dengan Harga Terbaik</h3>
+                                <h2>Dapatkan Produk Eksklusif!</h2>
+                                <h3 class="d-none d-sm-block">Dengan Harga Terjangkau</h3>
                                 <?php foreach($pss->result_array() as $pass): ?>
                                 <h4>Mulai Rp. <?= str_replace(",",".",number_format($pass['price'])) ?>,-</h4>
                                 <?php endforeach; ?>
@@ -265,7 +265,7 @@
                     <div class="col-lg-4">
                         <div class="banner-wrap mb-30">
                             <div class="banner-img banner-img-zoom">
-                                <a href="<?= base_url(); ?>products"><img src="<?= base_url(); ?>assets/home/assets/images/banner/banner-bawah2.jpg" alt=""></a>
+                                <a href="<?= base_url(); ?>products"><img src="<?= base_url(); ?>assets/home/assets/images/banner/promot.png" alt=""></a>
                             </div>
                             <div class="banner-content-3">
                                 <span>Belanja sekarang</span>

@@ -7,7 +7,7 @@
       <div class="col-md-12 text-center">
         <div class="copy_right">
           <p>
-            Copyright <a href="https://stooredigital.com" target="_blank">Pos Gema UMKM</a>. All rights reserved.
+            Copyright <a href="#" target="_blank">Pos UMKM 2024</a>. All rights reserved.
           </p>
         </div>
 

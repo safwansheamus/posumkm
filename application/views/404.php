@@ -36,12 +36,12 @@
                     <div class="col-lg-8 ml-auto mr-auto">
                         <div class="error-content text-center">
                             <div class="error-img">
-                                <img src="<?= base_url(); ?>assets/home/assets/images/banner/page-404-image.jpg" alt="">
+                                <img src="<?= base_url(); ?>assets/home/assets/images/banner/error.png" alt="">
                             </div>
-                            <h2> Halaman Tidak Ditemukan.</h2>
+                            <h2>Ups, Halamannya Tidak ditemukan</h2>
                             <div class="search-style-4">
                                 <form class="search-popup-form" action="<?= base_url(); ?>search" method="get" >
-                                    <input type="text" autocomplete="off" name="q" placeholder="Cari Sesuatu..">
+                                    <input type="text" autocomplete="off" name="q" placeholder="Cari Halamannya Disiniii">
                                     <button type="submit"> Search </button>
                                 </form>
                             </div>

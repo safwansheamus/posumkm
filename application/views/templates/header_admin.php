@@ -129,9 +129,9 @@
 					<div class="logo d-flex align-items-center justify-content-center justify-content-lg-start">
 						<a href="<?= base_url(); ?>administrator"> <strong class="logo_icon"> 
                   <img src="<?= base_url();  ?>assets/images/logo/<?= $this->Settings_model->getSetting()['favicon']; ?>" alt=""> </strong> 
-                <span class="logo-default"> 
+                <!-- <span class="logo-default"> 
                   <img src="<?= base_url();  ?>assets/images/logo/<?= $this->Settings_model->getSetting()['logo']; ?>" style="filter: invert(100%);">
-                </span> 
+                </span>  -->
             </a>
 						<div class="icon_menu">
 							<a href="#" class="menu-toggler sidebar-toggler"></a>
@@ -178,7 +178,7 @@
 						</div>
 						<div class="info">
 							<p>
-                Admin 
+                Admin Pos Umkm
 							</p>
 							<a href="#"> <i class="fa fa-circle text-success"></i> Online</a>
 						</div>
